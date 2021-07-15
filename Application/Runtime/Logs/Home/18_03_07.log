@@ -1,0 +1,979 @@
+[ 2018-03-07T11:56:20+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.516030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.517030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-07T11:56:21+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Index/verifyImg.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-07T11:56:27+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Manager/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+
+[ 2018-03-07T11:56:27+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `tp_manager` WHERE `mg_name` = 'admin' AND `mg_pwd` = '123' LIMIT 1   [ RunTime:0.0610s ]
+
+[ 2018-03-07T11:56:28+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Manager/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_manager` WHERE `mg_id` = 1 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `tp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_auth` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=0  )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=1  )  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant 系统管理员 - assumed '系统管理员' D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\c112828a634e721f87f0c5cdd1e89d6a.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2018-03-07T11:56:29+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-03-07T11:56:36+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Department/depart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_club` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `tp_club` WHERE ( club_name = '社团联合会' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\89459973ce0c8b477e2169d45ef465e6.php 第 28 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\89459973ce0c8b477e2169d45ef465e6.php 第 28 行.
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\89459973ce0c8b477e2169d45ef465e6.php 第 31 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\89459973ce0c8b477e2169d45ef465e6.php 第 31 行.
+NOTIC: [2] Illegal string offset 'member_id' D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\89459973ce0c8b477e2169d45ef465e6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-03-07T11:56:38+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Clubmember/apply_club
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_association_member` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0210s ]
+SQL: SELECT `stu_name` FROM `tp_student` WHERE `stu_id` = null LIMIT 1   [ RunTime:0.0650s ]
+SQL: SELECT `stu_number` FROM `tp_student` WHERE `stu_id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_faculty` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `tp_faculty`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_politics` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `tp_politics`  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_club` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_club`  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-07T11:56:39+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Clubmember/club_member
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_association_member` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_association_member` WHERE ( member_status=1 )  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE ( member_status=1 ) LIMIT 1   [ RunTime:0.0990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\2b50e7b019654a0e55d3054239a7eb3d.php 第 29 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\2b50e7b019654a0e55d3054239a7eb3d.php 第 29 行.
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\2b50e7b019654a0e55d3054239a7eb3d.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\2b50e7b019654a0e55d3054239a7eb3d.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-03-07T11:57:01+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Clubmember/member_con/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028002s ]
+SQL: SHOW COLUMNS FROM `tp_association_member` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_association_member` WHERE `member_id` = 11 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2018-03-07T11:57:09+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Clubmember/email_send/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `tp_association_member` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_association_member` WHERE `member_id` = 11 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-07T11:57:25+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Financial/financial_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `tp_financial` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `tp_financial`  [ RunTime:0.0490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_financial` LIMIT 1   [ RunTime:0.1400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\a871b92fec4cef95e280ee2938912d30.php 第 29 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\a871b92fec4cef95e280ee2938912d30.php 第 29 行.
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\a871b92fec4cef95e280ee2938912d30.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\a871b92fec4cef95e280ee2938912d30.php 第 32 行.
+NOTIC: [8] Undefined index: member_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\a871b92fec4cef95e280ee2938912d30.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-03-07T11:57:30+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Financial/in_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_relation` [ RunTime:0.2080s ]
+SQL: SELECT * FROM `tp_relation` WHERE `stu_id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_role` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_club` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_club`  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: club_name D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 54 行.
+NOTIC: [8] Undefined variable: time D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 54 行.
+NOTIC: [8] Undefined variable: in_count D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 58 行.
+NOTIC: [8] Undefined variable: out_count D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 58 行.
+NOTIC: [8] Undefined variable: in_January D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 85 行.
+NOTIC: [8] Undefined variable: in_February D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 85 行.
+NOTIC: [8] Undefined variable: in_March D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 85 行.
+NOTIC: [8] Undefined variable: in_April D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 85 行.
+NOTIC: [8] Undefined variable: in_May D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 85 行.
+NOTIC: [8] Undefined variable: in_June D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 85 行.
+NOTIC: [8] Undefined variable: in_July D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 85 行.
+NOTIC: [8] Undefined variable: in_August D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 85 行.
+NOTIC: [8] Undefined variable: in_September D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 85 行.
+NOTIC: [8] Undefined variable: in_October D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 85 行.
+NOTIC: [8] Undefined variable: in_November D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 85 行.
+NOTIC: [8] Undefined variable: in_December D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 85 行.
+NOTIC: [8] Undefined variable: out_January D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 88 行.
+NOTIC: [8] Undefined variable: out_February D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 88 行.
+NOTIC: [8] Undefined variable: out_March D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 88 行.
+NOTIC: [8] Undefined variable: out_April D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 88 行.
+NOTIC: [8] Undefined variable: out_May D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 88 行.
+NOTIC: [8] Undefined variable: out_June D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 88 行.
+NOTIC: [8] Undefined variable: out_July D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 88 行.
+NOTIC: [8] Undefined variable: out_August D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 88 行.
+NOTIC: [8] Undefined variable: out_September D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 88 行.
+NOTIC: [8] Undefined variable: out_October D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 88 行.
+NOTIC: [8] Undefined variable: out_November D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 88 行.
+NOTIC: [8] Undefined variable: out_December D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\79007f4759a79aab2c3f810b85dac80f.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-03-07T11:57:37+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Financial/in_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `tp_in_financial` [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_out_financial` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `January` FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `February` FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `March` FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `April` FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `May` FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `June` FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `July` FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `August` FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `September` FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `October` FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `November` FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `December` FROM `tp_in_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `January` FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `February` FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `March` FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `April` FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `May` FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `June` FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `July` FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `August` FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `September` FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `October` FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `November` FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `December` FROM `tp_out_financial` WHERE `club_name` = '社团联合会' AND `time` = 2017 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_relation` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_relation` WHERE `stu_id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_role` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_club` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_club`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-07T11:57:52+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Auth/authlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_auth` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_auth`  [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_auth` LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\e3b6960a61f7cece092c935f810eacc9.php 第 29 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\e3b6960a61f7cece092c935f810eacc9.php 第 29 行.
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\e3b6960a61f7cece092c935f810eacc9.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\e3b6960a61f7cece092c935f810eacc9.php 第 32 行.
+NOTIC: [8] Undefined index: member_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\e3b6960a61f7cece092c935f810eacc9.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-03-07T11:57:55+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Role/rolelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_role`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_role` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\c43e116c4c81d08d235c3f7d4520452d.php 第 29 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\c43e116c4c81d08d235c3f7d4520452d.php 第 29 行.
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\c43e116c4c81d08d235c3f7d4520452d.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\c43e116c4c81d08d235c3f7d4520452d.php 第 32 行.
+NOTIC: [8] Undefined index: member_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\c43e116c4c81d08d235c3f7d4520452d.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-03-07T11:57:56+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Relation/relation_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_student` INNER JOIN tp_relation ON tp_student.stu_id = tp_relation.stu_id INNER JOIN tp_role ON tp_relation.role_id=tp_role.role_id   [ RunTime:0.0390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_student` INNER JOIN tp_relation ON tp_student.stu_id = tp_relation.stu_id INNER JOIN tp_role ON tp_relation.role_id=tp_role.role_id  LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\0d4e3116f792efd9f0782e5683808656.php 第 29 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\0d4e3116f792efd9f0782e5683808656.php 第 29 行.
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\0d4e3116f792efd9f0782e5683808656.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\0d4e3116f792efd9f0782e5683808656.php 第 32 行.
+NOTIC: [8] Undefined index: new_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\0d4e3116f792efd9f0782e5683808656.php 第 65 行.
+NOTIC: [8] Undefined index: new_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\0d4e3116f792efd9f0782e5683808656.php 第 65 行.
+NOTIC: [8] Undefined index: new_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\0d4e3116f792efd9f0782e5683808656.php 第 65 行.
+NOTIC: [8] Undefined index: new_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\0d4e3116f792efd9f0782e5683808656.php 第 65 行.
+NOTIC: [8] Undefined index: new_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\0d4e3116f792efd9f0782e5683808656.php 第 65 行.
+NOTIC: [8] Undefined index: new_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\0d4e3116f792efd9f0782e5683808656.php 第 65 行.
+NOTIC: [8] Undefined index: new_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\0d4e3116f792efd9f0782e5683808656.php 第 65 行.
+NOTIC: [8] Undefined index: member_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\0d4e3116f792efd9f0782e5683808656.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-03-07T11:57:58+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Shujuku/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-07T11:57:59+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Bak/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] mkdir(): File exists D:\wamp64\www\thinkphp_3.2.3_full\Application\Home\Controller\BakController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: count D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\1ac429de9b8ec3e077f10845af915439.php 第 31 行.
+NOTIC: [8] Undefined variable: vo D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\1ac429de9b8ec3e077f10845af915439.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-03-07T11:58:00+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Database/index/type/import
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: count D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\c49ef01e63f01fd8f307b295234299b0.php 第 33 行.
+NOTIC: [8] Undefined variable: vo D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\c49ef01e63f01fd8f307b295234299b0.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-03-07T11:58:05+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/New/new_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_new` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tp_relation` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_relation` WHERE `stu_id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_role` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0070s ]
+SQL: SELECT `stu_name` FROM `tp_student` WHERE `stu_id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_association_member` [ RunTime:0.0070s ]
+SQL: SELECT `member_club` FROM `tp_association_member` WHERE `member_name` = null AND `member_position` = '社长' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-03-07T11:58:07+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/New/new_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_new` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_new`  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_new` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\a56826704ce70388ed87b8442c9d7f4e.php 第 29 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\a56826704ce70388ed87b8442c9d7f4e.php 第 29 行.
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\a56826704ce70388ed87b8442c9d7f4e.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\a56826704ce70388ed87b8442c9d7f4e.php 第 32 行.
+NOTIC: [8] Undefined index: member_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\a56826704ce70388ed87b8442c9d7f4e.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-07T11:58:11+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Associationmember/members_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_association_member` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_association_member` WHERE `member_status` = 1 AND `member_club` = '社团联合会'  [ RunTime:0.0040s ]
+SQL: SELECT `member_email` FROM `tp_association_member` WHERE `member_status` = 1 AND `member_club` = '社团联合会'  [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE `member_status` = 1 AND `member_club` = '社团联合会' LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\ea47278561305575710c5dbb16feaf89.php 第 30 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\ea47278561305575710c5dbb16feaf89.php 第 30 行.
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\ea47278561305575710c5dbb16feaf89.php 第 33 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\ea47278561305575710c5dbb16feaf89.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-03-07T11:58:13+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Clubmember/apply_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_association_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_association_member`  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\40bfaee44187b6c482dfd8c87f1081b1.php 第 29 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\40bfaee44187b6c482dfd8c87f1081b1.php 第 29 行.
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\40bfaee44187b6c482dfd8c87f1081b1.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\40bfaee44187b6c482dfd8c87f1081b1.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.305018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.305018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-07T11:58:14+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Clubmember/member_sex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_relation` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_relation` WHERE `stu_id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_role` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_club` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_club`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: member_man D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\77d13e153f1ad4984a40537a8dc29551.php 第 79 行.
+NOTIC: [8] Undefined variable: member_woman D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\77d13e153f1ad4984a40537a8dc29551.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-07T11:58:15+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Retired/retired_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `tp_retired` [ RunTime:0.1530s ]
+SQL: SELECT * FROM `tp_retired`  [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_retired` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_relation` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_relation` WHERE `stu_id` = null LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\e2bffea15efc389723e8973fe0d72352.php 第 29 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\e2bffea15efc389723e8973fe0d72352.php 第 29 行.
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\e2bffea15efc389723e8973fe0d72352.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\e2bffea15efc389723e8973fe0d72352.php 第 32 行.
+NOTIC: [8] Undefined index: member_id D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\e2bffea15efc389723e8973fe0d72352.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2018-03-07T11:58:18+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Clubmember/member_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: type D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 39 行.
+NOTIC: [8] Undefined variable: wenchuan D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 66 行.
+NOTIC: [8] Undefined variable: zhengshi D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 66 行.
+NOTIC: [8] Undefined variable: waiguoyu D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 66 行.
+NOTIC: [8] Undefined variable: shutong D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 67 行.
+NOTIC: [8] Undefined variable: wudian D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 67 行.
+NOTIC: [8] Undefined variable: huasheng D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 68 行.
+NOTIC: [8] Undefined variable: jixin D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 68 行.
+NOTIC: [8] Undefined variable: tiyu D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 69 行.
+NOTIC: [8] Undefined variable: yishu D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 69 行.
+NOTIC: [8] Undefined variable: jiaoshi D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 69 行.
+NOTIC: [8] Undefined variable: jingguan D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 69 行.
+NOTIC: [8] Undefined variable: wenchuan D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 90 行.
+NOTIC: [8] Undefined variable: zhengshi D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 91 行.
+NOTIC: [8] Undefined variable: waiguoyu D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 98 行.
+NOTIC: [8] Undefined variable: shutong D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 99 行.
+NOTIC: [8] Undefined variable: wudian D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 100 行.
+NOTIC: [8] Undefined variable: huasheng D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 101 行.
+NOTIC: [8] Undefined variable: jixin D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 102 行.
+NOTIC: [8] Undefined variable: tiyu D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 103 行.
+NOTIC: [8] Undefined variable: yishu D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 104 行.
+NOTIC: [8] Undefined variable: jiaoshi D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 105 行.
+NOTIC: [8] Undefined variable: jingguan D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 106 行.
+NOTIC: [8] Undefined variable: stu_count D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 120 行.
+NOTIC: [8] Undefined variable: member_count D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 120 行.
+NOTIC: [8] Undefined variable: stu_count D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 141 行.
+NOTIC: [8] Undefined variable: member_count D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-07T11:58:21+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Clubmember/member_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_association_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE `member_yuanxi` = '文学与传媒学院' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE `member_yuanxi` = '政治与历史文化学院' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE `member_yuanxi` = '外国语学院' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE `member_yuanxi` = '数学与统计学院' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE `member_yuanxi` = '物理与机电工程学院' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE `member_yuanxi` = '化学与生物工程学院' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE `member_yuanxi` = '计算机与信息工程学院' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE `member_yuanxi` = '体育学院' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE `member_yuanxi` = '艺术学院' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE `member_yuanxi` = '教师教育学院' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE `member_yuanxi` = '经济与管理学院' LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: stu_count D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 120 行.
+NOTIC: [8] Undefined variable: member_count D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 120 行.
+NOTIC: [8] Undefined variable: stu_count D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 141 行.
+NOTIC: [8] Undefined variable: member_count D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-07T11:58:26+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Clubmember/member_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_student` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_association_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: wenchuan D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 66 行.
+NOTIC: [8] Undefined variable: zhengshi D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 66 行.
+NOTIC: [8] Undefined variable: waiguoyu D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 66 行.
+NOTIC: [8] Undefined variable: shutong D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 67 行.
+NOTIC: [8] Undefined variable: wudian D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 67 行.
+NOTIC: [8] Undefined variable: huasheng D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 68 行.
+NOTIC: [8] Undefined variable: jixin D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 68 行.
+NOTIC: [8] Undefined variable: tiyu D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 69 行.
+NOTIC: [8] Undefined variable: yishu D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 69 行.
+NOTIC: [8] Undefined variable: jiaoshi D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 69 行.
+NOTIC: [8] Undefined variable: jingguan D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 69 行.
+NOTIC: [8] Undefined variable: wenchuan D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 90 行.
+NOTIC: [8] Undefined variable: zhengshi D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 91 行.
+NOTIC: [8] Undefined variable: waiguoyu D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 98 行.
+NOTIC: [8] Undefined variable: shutong D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 99 行.
+NOTIC: [8] Undefined variable: wudian D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 100 行.
+NOTIC: [8] Undefined variable: huasheng D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 101 行.
+NOTIC: [8] Undefined variable: jixin D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 102 行.
+NOTIC: [8] Undefined variable: tiyu D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 103 行.
+NOTIC: [8] Undefined variable: yishu D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 104 行.
+NOTIC: [8] Undefined variable: jiaoshi D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 105 行.
+NOTIC: [8] Undefined variable: jingguan D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\d9791cdeffd24761900b3ea6b9477f68.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-07T11:58:33+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Manager/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-07T14:55:03+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2018-03-07T14:55:04+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Index/verifyImg.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-03-07T14:55:11+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Index/verifyImg/0.9102934810766903
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002501s ]
+
+[ 2018-03-07T14:55:17+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `tp_manager` WHERE `mg_name` = 'admin' AND `mg_pwd` = '123' LIMIT 1   [ RunTime:0.0025s ]
+
+[ 2018-03-07T14:55:18+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Manager/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_manager` WHERE `mg_id` = 1 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `tp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=0  )  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=1  )  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant 系统管理员 - assumed '系统管理员' D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\c112828a634e721f87f0c5cdd1e89d6a.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-07T14:55:18+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Manager/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027500s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_manager` WHERE `mg_id` = 1 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `tp_auth` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=0  )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=1  )  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant 系统管理员 - assumed '系统管理员' D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\c112828a634e721f87f0c5cdd1e89d6a.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2018-03-07T14:55:18+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Manager/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2018-03-07T14:55:24+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Home/Clubmember/club_member
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tp_association_member` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `tp_association_member` WHERE ( member_status=1 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_association_member` WHERE ( member_status=1 ) LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\2b50e7b019654a0e55d3054239a7eb3d.php 第 29 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\2b50e7b019654a0e55d3054239a7eb3d.php 第 29 行.
+NOTIC: [8] Undefined variable: D D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\2b50e7b019654a0e55d3054239a7eb3d.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\wamp64\www\thinkphp_3.2.3_full\Application\Runtime\Cache\Home\2b50e7b019654a0e55d3054239a7eb3d.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+

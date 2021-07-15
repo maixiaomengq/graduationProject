@@ -1,0 +1,36 @@
+[ 2017-12-19T21:54:02+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Public/Front/images/prettyPhoto/light_square/sprite.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-19T21:54:02+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Public/Front/images/prettyPhoto/light_square/btnPrevious.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-19T21:54:02+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Public/Front/images/prettyPhoto/light_square/btnNext.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-19T21:55:00+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Public/Front/images/prettyPhoto/light_square/sprite.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-19T21:55:00+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Public/Front/images/prettyPhoto/light_square/btnPrevious.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-19T21:55:00+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Public/Front/images/prettyPhoto/light_square/btnNext.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+

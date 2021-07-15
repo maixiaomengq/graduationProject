@@ -1,0 +1,18 @@
+[ 2017-11-26T20:25:12+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Public/Login/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-26T20:25:13+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Public/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001806s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-26T20:25:13+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Public/image/favico.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+ERR: 无法加载模块:Public
+

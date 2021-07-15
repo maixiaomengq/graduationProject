@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>会员管理-有点</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/css.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/manhuaDate.1.0.css">
+	<script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Admin/js/manhuaDate.1.0.js"></script>
+	<script type="tet/javascript" src="__PUBLIC__/Admin/js/jquery-1.7.2.min.js"></script>
+	<!-- <script type="text/xjavascript" src="js/page.js" ></script> -->
+	<script type="text/javascript">
+$(function (){
+  $("input.mh_date").manhuaDate({
+    Event : "click",//可选              
+    Left : 0,//弹出时间停靠的左边位置 
+    Top : -16,//弹出时间停靠的顶部边位置
+    fuhao : "-",//日期连接符默认为-
+    isTime : false,//是否开启时间值默认为false
+    beginY : 1949,//年份的开始默认为1949
+    endY :2100//年份的结束默认为2049
+  });
+});
+</script>
+</head>
+
+<body>
+	<div id="pageAll">
+		<div class="pageTop">
+			<div class="page">
+				<img src="__PUBLIC__/Admin/img/coin02.png" /><span><a href="#">首页</a>&nbsp;-&nbsp;<a
+					href="#">会员管理</a>&nbsp;-</span>&nbsp;会员管理
+			</div>
+		</div>
+
+		<div class="page">
+			<!-- vip页面样式 -->
+			<div class="vip">
+				<div class="conform">
+					<form>
+						<div class="cfD">
+							时间段：<input class="vinput mh_date" type="text" readonly="true" />&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
+							<input class="vinput mh_date" type="text" readonly="true" />
+						</div>
+						<div class="cfD">
+							<input class="addUser" type="text" placeholder="输入用户名/ID/手机号/城市" />
+							<button class="button">搜索</button>
+							<a class="addA addA1" href="__CONTROLLER__/addAuth">添加权限+</a>
+						</div>
+					</form>
+				</div>
+				<!-- vip 表格 显示 -->
+				<div class="conShow">
+					<table border="1" cellspacing="0" cellpadding="0">
+						<tr>
+							<td width="66px" class="tdColor tdC">序号</td>
+							<td width="66px" class="tdColor tdC">权限名称</td>
+							<td width="66px" class="tdColor tdC">控制器名</td>
+							<td width="66px" class="tdColor tdC">方法名</td>
+							<td width="66px" class="tdColor tdC">全路径</td>
+							<td width="66px" class="tdColor tdC">权限等级</td>
+							<td width="66px" class="tdColor tdC">修改</td>
+						</tr>
+						<volist name='authlist' id='vo'>
+						<tr>
+							<td>{$i}</td>
+							<td>{$vo.auth_name}</td>
+							<td>{$vo.auth_c}</td>
+							<td>{$vo.auth_a}</td>
+							<td>{$vo.auth_path}</td>
+							<td>{$vo.auth_level}</td>
+							<td><a href="__URL__/updateAuth/auth_id/{$vo.auth_id}">修改</a></td>
+
+
+							<td><a href="__CONTROLLER__/vipupdate/id/{$vip.id}"><img class="operation" src="__PUBLIC__/Admin/img/update.png"></a> 
+							<!-- <img   src="__PUBLIC__/Admin/img/delete.png" class="operation delban" > -->
+							<a  href="__CONTROLLER__/del/id/{$vip.id}" onclick="return confirm('确定要删除吗？')" >删除</a>
+							</td>
+						</tr>
+						</volist>
+						<td colspan="6">{$pagestr}</td>
+					</table>
+					<!-- <div class="paging"  >{$pagestr}</div> -->
+				</div>
+				<!-- vip 表格 显示 end-->
+			</div>
+			<!-- vip页面样式end -->
+		</div>
+
+	</div>
+
+
+	<!-- 删除弹出框 -->
+	<div class="banDel">
+		<div class="delete">
+			<div class="close">
+				<a><img src="__PUBLIC__/Admin/img/shanchu.png" /></a>
+			</div>
+			<p class="delP1">你确定要删除此条记录吗？</p>
+			<p class="delP2">
+				<a href="__CONTROLLER__/del/id/{$vip.id}" class="ok yes">确定</a>
+				<a class="ok no">取消</a>
+			</p>
+		</div>
+	</div>
+	<!-- 删除弹出框  end-->
+</body>
+
+<script type="text/javascript">
+// 广告弹出框
+$(".delban").click(function(){
+  $(".banDel").show();
+});
+$(".close").click(function(){
+  $(".banDel").hide();
+});
+$(".no").click(function(){
+  $(".banDel").hide();
+});
+// 广告弹出框 end
+</script>
+</html>

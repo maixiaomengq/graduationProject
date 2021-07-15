@@ -1,0 +1,82 @@
+[ 2018-03-07T11:55:51+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Front/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `tp_activity` [ RunTime:0.0870s ]
+SQL: SELECT * FROM `tp_activity` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_new` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `tp_new` ORDER BY new_time desc LIMIT 10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.452025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.452025s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.838048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.839048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.107006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.107006s ]
+
+[ 2018-03-07T11:56:05+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Front/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_activity` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_activity` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_new` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_new` ORDER BY new_time desc LIMIT 10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-03-07T14:54:36+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Front/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.085001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017501s ]
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-03-07T14:54:47+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/Front/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tp_activity` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `tp_activity` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `tp_new` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `tp_new` ORDER BY new_time desc LIMIT 10   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.057501s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.060001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.330005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.330005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.050001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.050001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027501s ]
+

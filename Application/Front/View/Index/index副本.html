@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>河池学院社团主页</title>
+<meta name="keywords" content="河池学院社团主页" />
+<meta name="description" content="河池学院社团主页" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<link type="text/css" href="__PUBLIC__/Front/css/style.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="__PUBLIC__/image/favico.ico"/>
+<script type="text/javascript" src="__PUBLIC__/Front/js/jquery.1.4.2.min.js"></script>
+
+	<script type="text/javascript" src="__PUBLIC__/Front/js/lib.js"></script>
+
+	<script type="text/javascript">
+$(function() {
+
+	//导航
+	$(".nav").lavaLamp({
+		fx: "backinout", 
+		speed: 700,
+		click: function(event, menuItem) {
+			return true;
+		}
+	});
+	
+	//新闻
+	$("#scrolltop").myScroll({
+		speed:40,
+		rowHeight:26
+	});
+
+	//活动
+	$("#scrolltopsss").myScroll({
+		speed:30,
+		rowHeight:5
+	});
+	
+	//产品展示
+	$("#scrollpic").jCarouselLite({
+		btnPrev:'.prev',
+		btnNext:'.next',
+		auto:2000,
+		visible:4
+	});	
+	
+});
+</script>
+	<script type="text/javascript">
+		function changeSize(id) {
+			var img = $("#" + id);
+			var oWidth = img.width();
+			//取得图片的实际宽度
+			var oHeight = img.height();
+		//取得图片的实际高度
+			$("#"+id).live("click",function(){ $(this).toggle(function(){
+				img.width(oWidth + 300); img.height(oHeight + 300/oWidth*oHeight); }, function(){
+				img.width(oWidth); img.height(oHeight); }).trigger('click'); }); }
+	</script>
+<!--解决 IE6 背景缓存-->
+<!--[if IE 6]><script type="text/javascript">document.execCommand("BackgroundImageCache", false, true);</script><![endif]-->
+</head>
+
+<body>
+
+	<div class="container header">
+		<img src="__PUBLIC__/Front/images/hechixueyuan.png" width="100" height="100" alt="">
+			<font size="10" color="blue">河池学院社团主页</font>
+		<div class="ritside">
+			<script type="text/javascript">
+			document.write("<div class='today'>"+
+				getFullYear(today)+"年&nbsp;&nbsp;"
+				+isnMonths[today.getMonth()]+"月"
+				+today.getDate()+"日&nbsp;&nbsp;"
+				+isnDays[today.getDay()]
+			+"</div>");
+			</script>
+			<div class="telephone">
+				<p align="right">在线客服：
+					<img  style="CURSOR: pointer" onclick="javascript:window.open('http://b.qq.com/webc.htm?new=0&sid=317389036&o=czl.club.app&q=7', '_blank', 'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');"  border="0" SRC=http://wpa.qq.com/pa?p=1:317389036:1 alt="如有问题，请在线联系客服。">
+				</p>
+			</div>
+		</div>
+		<div class="clear"></div>
+		
+		<div class="nav">
+			<div class="nlbg"></div>
+			<ul>
+				<li class="current"><a href={:U('Index/index')}>首 页</a></li>
+				<li><a href="{:U('Club/club_list')}">学校社团</a></li>
+				<li><a href="{:U('New/new_list')}">新闻动态</a></li>
+				<li><a href="{:U('Activity/activity_list')}">活动动态</a></li>
+				<li><a href="job.html">加入我们</a></li>
+				<li class="last"><a href= {:U('Home/Index/index')}>社团后台</a></li>
+			</ul>
+			<div class="nrbg"></div>
+	</div><!--header end-->
+	
+	<div class="container content">
+		
+		<div class="banner"><a href="#"><img src="__PUBLIC__/Front/images/tushuguan.jpg" width="960" height="330" alt="" /></a></div>
+		
+		<div class="f-l i-company pubox">
+			<div class="putit"><div><h2 class="f-l">社团联合会</h2><a class="f-r more" href="{:U('Club/club_list')}">更多>></a></div></div>
+			<div class="pubcon">
+				<a href="about.html"><img class="f-l" src="__PUBLIC__/Front/images/shetuanlianhehui.jpg" width="131" height="114" alt="社团联合会" /></a>
+				社团联合会，直属河池学院管辖，负责管理学校所有社团的基本工作，和组织。
+
+
+				<div class="clear"></div>
+			</div>
+		</div>
+		
+		<div class="f-l i-news pubox">
+			<div class="putit"><div><h2 class="f-l">新闻动态</h2><a class="f-r more" href="{:U('New/new_list')}">更多>></a></div></div>
+			<div class="pubcon" id="scrolltop">
+				<ul>
+					<volist name="new" id="vo">
+						<li><em class="dian">·</em><a href="news.html">{$vo.new_title}</a><span class="date">[{$vo.new_time}]</span></li>
+					</volist>
+				</ul>
+			</div>
+		</div>
+
+		<div class="f-r i-contact pubox">
+			<div class="putit"><div><h2 class="f-l">最新活动</h2><a class="f-r more" href="contact.html">更多>></a></div></div>
+			<div class="pubcon" id="scrolltopsss">
+				<ul>
+					<volist name="activity" id="vo">
+						<li><a href="news.html">{$vo.activity_theme}</a></li>
+					</volist>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div class="f-l i-product pubox">
+			<div class="putit"><div><h2 class="f-l">社团活动图片展示</h2><a class="f-r more" href="product.html">更多>></a></div></div>
+			<div class="pubcon">
+				<div class="f-l sbtn prev"></div>
+				<div id="scrollpic">
+					<ul>
+						<li>
+							<img  src="__PUBLIC__/Front/images/bianchengaihaozhe.jpg" width="140" height="122" alt="" />
+							<span>编程协会公开课</span>
+						</li>
+						<li>
+							<a href="product.html"><img src="__PUBLIC__/Front/images/nanloudanxia.jpg" width="140" height="122" alt="" /></a>
+							<span>南楼丹霞文学论坛</span>
+						</li>
+						<li>
+							<img src="__PUBLIC__/Front/images/aixinshe.jpg" width="140" height="122" alt="" />
+							<span>爱心社福龙小学公益活动</span>
+						</li>
+						<li>
+							<img src="__PUBLIC__/Front/images/tuqingxiehui.jpg" width="140" height="122" alt="" />
+							<span>图情协会书籍推荐大赛</span>
+						</li>
+						<li>
+							<img src="__PUBLIC__/Front/images/baituandazhan.jpg" width="140" height="122" alt="" />
+							<span>百团招新</span>
+						</li>
+					</ul>
+				</div>
+				<div class="f-r sbtn next"></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		
+		<div class="f-r i-friendship pubox">
+			<div class="putit"><div><h2 class="f-l">友情链接</h2></div></div>
+			<div class="pubcon">
+				<ul>
+					<li><em class="dian">·</em><a href="http://www.hcnu.edu.cn/">河池学院主页</a></li>
+					<li><em class="dian">·</em><a href="http://172.16.0.143/default2.aspx">教务管理系统</a></li>
+					<li><em class="dian">·</em><a href="http://www.hcnu.edu.cn/login.php">网络教学综合平台</a></li>
+					<li><em class="dian">·</em><a href= {:U('Home/Index/index')}>社团后台系统</a></li>
+					<li><em class="dian">·</em><a href="http://hcnu.fanya.chaoxing.com/portal">超星慕课学习平台</a></li>
+					<li><em class="dian">·</em><a href="http://www.hcnu.edu.cn/index.php?m=content&c=index&a=lists&catid=82">学校OA办公系统
+					</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="f-r i-friendship pubox">
+			<div class="pubcon">
+				<div class="putit"><div><h2 class="f-l">社团宣传视频</h2></div></div>
+				<video width="200" height="100" controls="controls" autoplay="autoplay">
+					<source src="/i/movie.ogg" type="video/ogg" />
+					<source src="__PUBLIC__/movie.mp4" type="video/mp4" />
+					<source src="/i/movie.webm" type="video/webm" />
+					<object data="__PUBLIC__/movie.mp4" width="320" height="240">
+						<embed width="320" height="240" src="__PUBLIC__/movie.mp4" />
+					</object>
+				</video>
+			</div>
+		</div>
+		<div class="clear"></div>
+		
+	</div><!--content end-->
+	
+	<div class="container footer">
+		<div class="btnmenu"><a href="{:U('Index/index')}">首 页</a><span>|</span><a href="{:U('Club/club_list')}">学校社团</a><span>|</span><a href="{:U('New/new_list')}">新闻动态</a><span>|</span><a href="{:U('Activity/activity_list')}">活动动态</a><span>|</span><a href="job.html">加入我们</a><span>|</span><a href="contact.html">社团后台</a></div>
+		<div class="copyright">Createright © 2017-2018  <br />版权所有：陈志良<br />技术客服联系：QQ：317389036、邮箱：317389036@qq.com</div>
+	</div><!--footer end-->
+
+</body>
+</html>

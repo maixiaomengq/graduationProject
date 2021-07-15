@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>河池学院社团主页</title>
+<meta name="keywords" content="河池学院社团主页" />
+<meta name="description" content="河池学院社团主页" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<link type="text/css" href="__PUBLIC__/Front/css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="__PUBLIC__/Front/js/jquery.1.4.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Front/js/lib.js"></script>
+<script type="text/javascript">
+$(function() {
+
+	//导航
+	$(".nav").lavaLamp({
+		fx: "backinout", 
+		speed: 700,
+		click: function(event, menuItem) {
+			return true;
+		}
+	});
+	
+});
+</script>
+<!--解决 IE6 背景缓存-->
+<!--[if IE 6]><script type="text/javascript">document.execCommand("BackgroundImageCache", false, true);</script><![endif]-->
+</head>
+
+<body>
+
+	<div class="container header">
+		<img src="__PUBLIC__/Front/images/hechixueyuan.png" width="100" height="100" alt="">
+		<font size="10" color="blue">河池学院社团主页</font>
+		<div class="ritside">
+			<script type="text/javascript">
+			document.write("<div class='today'>"+
+				getFullYear(today)+"年&nbsp;&nbsp;"
+				+isnMonths[today.getMonth()]+"月"
+				+today.getDate()+"日&nbsp;&nbsp;"
+				+isnDays[today.getDay()]
+			+"</div>");
+			</script>
+			<div class="telephone">
+				<p align="right">在线客服：
+				<img  style="CURSOR: pointer" onclick="javascript:window.open('http://b.qq.com/webc.htm?new=0&sid=317389036&o=czl.club.app&q=7', '_blank', 'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');"  border="0" SRC=http://wpa.qq.com/pa?p=1:317389036:1 alt="如有问题，请在线联系客服。">
+				</p>
+			</div>
+		</div>
+		<div class="clear"></div>
+		
+		<div class="nav">
+			<div class="nlbg"></div>
+			<ul>
+				<li class="current"><a href={:U('Index/index')}>首 页</a></li>
+				<li><a href="{:U('Club/club_list')}">学校社团</a></li>
+				<li><a href="{:U('New/new_list')}">新闻动态</a></li>
+				<li><a href="{:U('Activity/activity_list')}">活动动态</a></li>
+				<li><a href="job.html">加入我们</a></li>
+				<li class="last"><a href= {:U('Home/Index/index')}>社团后台</a></li>
+			</ul>
+			<div class="nrbg"></div>
+		</div>
+	</div><!--header end-->
+	
+	<div class="container content">
+
+		<div class="banner"><a href="#"><img src="__PUBLIC__/Front/images/tushuguan.jpg" width="960" height="330" alt="" /></a></div>
+		
+		<div class="left">
+			<div class="leftcon">
+				<div class="leftnav">
+					<h2 class="title01">社团</h2>
+					<ul>
+						<li class="current"><a href="#">社团介绍</a></li>
+					</ul>
+				</div>
+				<div class="leftbtn"></div>
+			</div>
+			
+			<div class="side-tel"><a href="#"><img src="__PUBLIC__/Front/images/side-telephone.gif" width="211" height="71" alt="咨询热线" /></a></div>
+		</div><!--left end-->
+		
+		<div class="right">
+			<div class="breadcrumbs"><img src="__PUBLIC__/Front/images/home-icon.gif" width="16" height="17" alt="首页" />当前位置：<a href="#">首页</a><span>></span><span>社团列表</span><span>></span><span>社团介绍</span></div>
+			<div class="about">
+				<img src="__PUBLIC__/uploads/logos/{$current.club_logo}" width="140" height="120" alt="" />
+				<font size="5">社团简介：</font>
+				<p>{$current.club_profile}</p>
+			</div>
+		</div><!--right end-->
+		
+		<div class="clear"></div>
+		
+	</div><!--content end-->
+	
+	<div class="container footer">
+		<div class="btnmenu"><a href="{:U('Index/index')}">首 页</a><span>|</span><a href="{:U('Club/club_list')}">学校社团</a><span>|</span><a href="{:U('New/new_list')}">新闻动态</a><span>|</span><a href="{:U('Activity/activity_list')}">活动动态</a><span>|</span><a href="job.html">加入我们</a><span>|</span><a href="contact.html">社团后台</a></div>
+		<div class="copyright">Createright © 2017-2018  <br />版权所有：陈志良<br />技术客服联系：QQ：317389036、邮箱：317389036@qq.com</div>	</div><!--footer end-->
+	
+</body>
+</html>
